@@ -80,6 +80,7 @@ class MultiHeadAttention(nn.Module):
 
         return H, A
 
+# 测试(忽略)
 if __name__ == "__main__":
     # 参数设置
     batch_size = 2
